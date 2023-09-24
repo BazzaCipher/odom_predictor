@@ -1,0 +1,11 @@
+[package]
+name = "odom_predictor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nalgebra = "0.32.0"
+ringbuffer = { version = "0.15.0", features = ["alloc"] }
+
